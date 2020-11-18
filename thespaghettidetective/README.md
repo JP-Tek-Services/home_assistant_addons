@@ -2,7 +2,7 @@
 
 [![Support JPeterson37 on Patreon][patreon-shield]][patreon]
 
-## Coming Coon
+## Coming Soon
 
 
 ## License

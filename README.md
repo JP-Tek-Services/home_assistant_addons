@@ -17,11 +17,11 @@ Simply add https://github.com/Jpeterson37/home_assistant_addons as a repo in you
 
 [:books: AgentDVR add-on documentation][addon-doc-agentdvr]
 
-### &#10003; [Facebox(coming soon)][addon-facebox]
+###  [Facebox(coming soon)][addon-facebox]
 
 [:books: Facebox add-on documentation][addon-doc-facebox]
 
-### &#10003; [The Spaghetti Detective(coming soon)][addon-thespaghettidetective]
+###  [The Spaghetti Detective(coming soon)][addon-thespaghettidetective]
 
 [:books: The Spaghetti Detective add-on documentation][addon-doc-thespaghettidetective]
 
