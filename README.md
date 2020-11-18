@@ -1,4 +1,4 @@
-# Jpeterson37 Home Assistant Community Add-on
+# JP Tek Services Home Assistant Community Add-on
 
 [![Support JPeterson37 on Patreon][patreon-shield]][patreon]
 
