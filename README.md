@@ -55,4 +55,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [addon-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox
 [addon-doc-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox/README.md
 [addon-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective
-[addon-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective/README.md
+[addon-doc-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective/README.md
