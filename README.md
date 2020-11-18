@@ -45,7 +45,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
-[addon-doc-agentdvr]: https://github.com/Jpeterson37/home_assistant_addons/agentdvr/README.md
+[addon-doc-agentdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr/README.md
 [addon-agetdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr
 [addon-facebox]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/facebox
 [addon-thespaghettidetective]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/thespaghettidetective
