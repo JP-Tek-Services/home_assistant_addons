@@ -1,12 +1,12 @@
 # JP Tek Services Home Assistant Community Add-on
 
-[![Support JPeterson37 on Patreon][patreon-shield]][patreon]
+[![Support JP-Tek-Services on Patreon][patreon-shield]][patreon]
 
 ## About
 
 Addon repo for Home Assistant
 
-Simply add https://github.com/Jpeterson37/home_assistant_addons as a repo in you addons. This will allow you to install any of the addons offered here.
+Simply add https://github.com/JP-Tek-Services/home_assistant_addons as a repo in you addons. This will allow you to install any of the addons offered here.
 
 ## Add-ons provided by this repository:
 ### &#10003; [AgnetDVR][addon-agetdvr]
@@ -29,7 +29,7 @@ Simply add https://github.com/Jpeterson37/home_assistant_addons as a repo in you
 
 MIT License
 
-Copyright 2020 Jpeterson37
+Copyright 2020 JP-Tek-Services
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -50,9 +50,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
-[addon-doc-agentdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr/README.md
-[addon-agetdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr
-[addon-facebox]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/facebox
-[addon-doc-facebox]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/facebox/README.md
-[addon-thespaghettidetective]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/thespaghettidetective
-[addon-thespaghettidetective]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/thespaghettidetective/README.md
+[addon-doc-agentdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr/README.md
+[addon-agetdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr
+[addon-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox
+[addon-doc-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox/README.md
+[addon-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective
+[addon-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective/README.md

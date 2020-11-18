@@ -1,6 +1,6 @@
 # Home Assistant Community Add-on: The Spaghetti Detective
 
-[![Support JPeterson37 on Patreon][patreon-shield]][patreon]
+[![Support JP-Tek-Services on Patreon][patreon-shield]][patreon]
 
 ## Coming Soon
 
@@ -9,7 +9,7 @@
 
 MIT License
 
-Copyright 2020 Jpeterson37
+Copyright 2020 JP-Tek-Services
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -30,3 +30,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
+JP-Tek-Services
