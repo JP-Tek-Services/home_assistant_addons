@@ -18,7 +18,12 @@ Simply add https://github.com/Jpeterson37/home_assistant_addons as a repo in you
 [:books: AgentDVR add-on documentation][addon-doc-agentdvr]
 
 ### &#10003; [Facebox(coming soon)][addon-facebox]
+
+[:books: Facebox add-on documentation][addon-doc-facebox]
+
 ### &#10003; [The Spaghetti Detective(coming soon)][addon-thespaghettidetective]
+
+[:books: The Spaghetti Detective add-on documentation][addon-doc-thespaghettidetective]
 
 ## License
 
@@ -48,4 +53,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [addon-doc-agentdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr/README.md
 [addon-agetdvr]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/agentdvr
 [addon-facebox]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/facebox
+[addon-doc-facebox]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/facebox/README.md
 [addon-thespaghettidetective]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/thespaghettidetective
+[addon-thespaghettidetective]: https://github.com/Jpeterson37/home_assistant_addons/tree/master/thespaghettidetective/README.md
