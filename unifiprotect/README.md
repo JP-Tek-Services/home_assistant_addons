@@ -1,33 +1,8 @@
-# JP Tek Services Home Assistant Community Add-on
+# Home Assistant Community Add-on: Unifi Protect
 
 [![Support JP-Tek-Services on Patreon][patreon-shield]][patreon]
 
-## About
-
-Addon repo for Home Assistant
-
-Simply add https://github.com/JP-Tek-Services/home_assistant_addons as a repo in you addons. This will allow you to install any of the addons offered here.
-
-## Add-ons provided by this repository:
-### &#10003; [AgnetDVR][addon-agetdvr]
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
-![Supports amd64 Architecture][amd64-shield]
-![Supports i386 Architecture][i386-shield]
-![Project Maintenance][maintenance-shield]
-
-[:books: AgentDVR add-on documentation][addon-doc-agentdvr]
-
-###  [Facebox(coming soon)][addon-facebox]
-
-[:books: Facebox add-on documentation][addon-doc-facebox]
-
-###  [The Spaghetti Detective(coming soon)][addon-thespaghettidetective]
-
-[:books: The Spaghetti Detective add-on documentation][addon-doc-thespaghettidetective]
-
-###  [Unifi Protect(coming soon)][addon-unifiprotect]
-
-[:books: Unifi Protect add-on documentation][addon-doc-unifiprotect]
+## Coming Soon
 
 
 ## License
@@ -55,11 +30,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
-[addon-doc-agentdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr/README.md
-[addon-agetdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr
-[addon-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox
-[addon-doc-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox/README.md
-[addon-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective
-[addon-doc-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective/README.md
-[addon-unifiprotect]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/unifiprotect
-[addon-doc-unifiprotect]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/unifiprotect/README.md
+[JP-Tek-Services]: https://jptekservices.net
