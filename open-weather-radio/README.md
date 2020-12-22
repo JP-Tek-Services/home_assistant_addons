@@ -3,7 +3,7 @@
 
 
 ## About
-Open Weather Radio is a docker container the leverages [RTL-SDR](https://amzn.to/3au9W0J) to listen for SAME messages sent via [NWR stations](https://www.weather.gov/nwr/station_listing) and send the decoded alerts via STDOUT and/or MQTT(if a broker is provided). An http ogg stream is also provided on http://hostip:8080
+Open Weather Radio is a docker container the leverages [RTL-SDR](https://amzn.to/3au9W0J) to listen for SAME messages sent via [NWR stations](https://www.weather.gov/nwr/station_listing) and send the decoded alerts via STDOUT and/or MQTT(if a broker is provided). An http ogg stream is also provided on http://hostip:1050
 
 
 ## Requirements
