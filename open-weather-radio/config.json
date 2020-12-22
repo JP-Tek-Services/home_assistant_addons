@@ -8,6 +8,7 @@
     "startup": "system",
     "boot": "auto",
     "host_network": true,
+    "host_dbus": true,
     "options": {
         "device": null,
         "freq": "162.550M",
