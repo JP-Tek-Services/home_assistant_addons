@@ -13,9 +13,7 @@
         "freq": "162.550M",
         "ppm": "0",
         "gain": "40",
-        "dsamelog": "1",
         "mqttsvr": "",
-        "mqttport": 1883,
         "mqttusr": "",
         "mqttpwd": "",
         "log_level": "info"
