@@ -10,12 +10,23 @@ Simply add https://github.com/JP-Tek-Services/home_assistant_addons as a repo in
 
 ## Add-ons provided by this repository:
 ### &#10003; [AgnetDVR][addon-agetdvr]
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
+[![Release][agentdvr-release-shield]][agentdvr-release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports i386 Architecture][i386-shield]
 ![Project Maintenance][maintenance-shield]
 
 [:books: AgentDVR add-on documentation][addon-doc-agentdvr]
+
+### &#10003; [Open Weather Radio][addon-owr]
+[![Release][owr-release-shield]][owr-release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+![Project Maintenance][maintenance-shield]
+
+[:books: Open Weather Radio add-on documentation][addon-doc-owr]
 
 ###  [Facebox(coming soon)][addon-facebox]
 
@@ -48,12 +59,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [patreon-shield]: https://jpeterson37.github.io/patreon/patreon.png
 [patreon]: https://www.patreon.com/jptekservices
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.01.0-blue.svg
-[release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.1.0
+[agentdvr-release-shield]: https://img.shields.io/badge/version-v0.01.0-blue.svg
+[agentdvr-release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.1.0
+[owr-release-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
+[owr-release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.0.1
 [screenshot]: https://raw.githubusercontent.com/jpeterson37/addon-agentdvr/dev/images/screenshot.png
 [ispyurl]: https://www.ispyconnect.com/
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
 [addon-doc-agentdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr/README.md
 [addon-agetdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr
@@ -63,3 +79,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [addon-doc-thespaghettidetective]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/thespaghettidetective/README.md
 [addon-unifiprotect]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/unifiprotect
 [addon-doc-unifiprotect]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/unifiprotect/README.md
+[addon-doc-owr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/open-weather-radio/README.md
+[addon-owr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/open-weather-radio
