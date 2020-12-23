@@ -1,5 +1,9 @@
 ### 🔨 Changes
+v0.0.2
+- Bug fixes
+- OGG stream working
 
+v0.0.1
 - Initial
 
 
