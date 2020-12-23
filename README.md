@@ -8,6 +8,9 @@ Addon repo for Home Assistant
 
 Simply add https://github.com/JP-Tek-Services/home_assistant_addons as a repo in you addons. This will allow you to install any of the addons offered here.
 
+### To contribute
+Please refrence [addon-example](https://github.com/JP-Tek-Services/addon-example) and [example](https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/example)
+
 ## Add-ons provided by this repository:
 ### &#10003; [AgnetDVR][addon-agetdvr]
 [![Release][agentdvr-release-shield]][agentdvr-release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
