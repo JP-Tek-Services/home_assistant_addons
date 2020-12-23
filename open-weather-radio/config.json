@@ -1,26 +1,19 @@
 {
     "name": "Open Weather Radio",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "slug": "open-weather-radio",
     "description": "Addon to run Open Weather Radio with Home Assistant",
     "url": "https://github.com/JP-Tek-Services/addon-open-weather-radio",
     "arch": ["aarch64", "amd64", "armv7", "i386"],
     "startup": "system",
     "boot": "auto",
-    "host_network": true,
-    "host_dbus": true,
     "options": {
-        "device": null,
         "freq": "162.550M",
-        "ppm": "0",
-        "gain": "40",
-        "mqttsvr": "",
-        "mqttusr": "",
-        "mqttpwd": "",
+        "ppm": 0,
+        "gain": 40,
         "log_level": "info"
     },
     "schema": {
-        "device": "str?",
         "freq": "str",
         "ppm": "int?",
         "gain": "int?",
@@ -36,7 +29,6 @@
     },
     "usb": true,
     "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
-    "init": true,
     "map": [],
     "image": "jptekservices/addon-open-weather-radio-{arch}",
     "watchdog": "tcp://[HOST]:[PORT:8080]"
