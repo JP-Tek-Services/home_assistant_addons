@@ -3,7 +3,7 @@
 
 
 ## About
-Open Weather Radio is a docker container the leverages [RTL-SDR](https://amzn.to/3au9W0J) to listen for SAME messages sent via [NWR stations](https://www.weather.gov/nwr/station_listing) and send the decoded alerts via STDOUT and/or MQTT(if a broker is provided). An http ogg stream is also provided on http://hostip:1050
+Open Weather Radio is a docker container the leverages [RTL-SDR](https://amzn.to/3au9W0J) to listen for SAME messages sent via [NWR stations](https://www.weather.gov/nwr/station_listing) and send the decoded alerts via STDOUT and/or MQTT(if a broker is provided). An http OGG stream is also provided on http://hostip:1050 and can be used with [Home Assastant Media Extractor](https://www.home-assistant.io/integrations/media_extractor/)
 
 
 ## Requirements
@@ -19,7 +19,8 @@ comparison to installing any other Home Assistant add-on.
 
 1. Add [JPTS Community Home Assistant Addons](https://github.com/JP-Tek-Services/home_assistant_addons) repo to your Home Assisat Addon Store.
 1. Search for the "Open Weather Radio" add-on in the Supervisor add-on store and install it.
-1. Configure paramater like example below
+1. Plug in USB RTL-SDR to Home Assistant host.
+1. Configure paramater like example below.
 1. Start the "Open Weather Radio" add-on.
 1. Check the logs of the "Open Weather Radio" to see if everything went well.
 1. Ready to go!
@@ -27,11 +28,10 @@ comparison to installing any other Home Assistant add-on.
 ## Varables
 | Varable | Description | Required | Default |
 | ----------- | ----------- | ----------- | ----------- |
-| device | /dev path to RTL-SDR | yes | |
-| freq | Frequency for [NWR stations](https://www.weather.gov/nwr/station_listing) | no | 162.550M |
+| freq | Frequency for [NWR stations](https://www.weather.gov/nwr/station_listing) | yes | 162.550M |
 | ppm | ppm error | no | 0 |
 | gain | Tuner gain | no | 40 |
-| dsamelog | Set log level (int 1-10) | no | |
+| dsamelog | Set log level (int 10,20,30,40,50) | no | |
 | mqttsvr | MQTT Broker server address | no | |
 | mqttport | MQTT Broker Port | no | 1883 |
 | mqttusr | MQTT Broker Username | no | |
@@ -68,7 +68,6 @@ you are troubleshooting.
 Example add-on configuration, with all available options:
 
 ```yaml
-device: /dev/usb0
 freq: "162.550M"
 ppm: 0
 gain: 40
