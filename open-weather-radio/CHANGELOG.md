@@ -1,4 +1,7 @@
 ### 🔨 Changes
+v0.0.3
+- Added SAME code support
+
 v0.0.2
 - Bug fixes
 - OGG stream working
