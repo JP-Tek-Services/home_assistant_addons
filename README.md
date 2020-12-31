@@ -64,8 +64,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [agentdvr-release-shield]: https://img.shields.io/badge/version-v0.01.0-blue.svg
 [agentdvr-release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.1.0
-[owr-release-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
-[owr-release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.0.1
+[owr-release-shield]: https://img.shields.io/badge/version-v0.0.4-blue.svg
+[owr-release]: https://github.com/JP-Tek-Services/addon-open-weather-radio/
 [screenshot]: https://raw.githubusercontent.com/jpeterson37/addon-agentdvr/dev/images/screenshot.png
 [ispyurl]: https://www.ispyconnect.com/
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -73,7 +73,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
+[license-shield]: https://img.shields.io/github/license/JP-Tek-Services/addon-example.svg
 [addon-doc-agentdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr/README.md
 [addon-agetdvr]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/agentdvr
 [addon-facebox]: https://github.com/JP-Tek-Services/home_assistant_addons/tree/master/facebox
