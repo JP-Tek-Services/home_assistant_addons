@@ -1,4 +1,13 @@
 # Home Assistant Community Add-on: Open Wather Radio
+[![Release][owr-release-shield]][owr-release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+![Project Maintenance][maintenance-shield]
+
+
 [![Support JP-Tek-Services on Patreon][patreon-shield]][patreon]
 
 
@@ -31,12 +40,13 @@ comparison to installing any other Home Assistant add-on.
 | freq | Frequency for [NWR stations](https://www.weather.gov/nwr/station_listing) | yes | 162.550M |
 | ppm | ppm error | no | 0 |
 | gain | Tuner gain | no | 40 |
-| same | SAME code to use | no | |
+| same | SAME code to use. seperated by white space | no | |
 | dsamelog | Set log level (int 10,20,30,40,50) | no | |
 | mqttsvr | MQTT Broker server address | no | |
 | mqttport | MQTT Broker Port | no | 1883 |
 | mqttusr | MQTT Broker Username | no | |
 | mqttpwd | MQTT Broker Password | no | |
+| test | If true, will trigger a static EASE decode after 10 seconds. Good for testing MQTT and Automation. | no | false | 
 
 
 
@@ -79,6 +89,7 @@ mqttport: 1883
 mqttusr: username
 mqttpwd: password
 log_level: info
+test: (true/false)
 ```
 
 ## Sensor config
@@ -90,8 +101,7 @@ sensor:
     icon: mdi:weather-cloudy-alert
     state_topic: "open_weather_radio/alerts"
     value_template: "{{ value_json.alert }}"
-    availability:
-      - topic: "open_weather_radio/status"
+    availability_topic: "open_weather_radio/status"
     payload_available: "online"
     payload_not_available: "offline"
     expire_after: 300
@@ -100,14 +110,22 @@ sensor:
 ```
 
 ## Automation Example
-**Note**: _Triggers an alert message readout to the alexa media group "everywhere" anytime OWR sends an alert_
+**Note**: _Triggers an alert message readout to the alexa media and mobile device anytime OWR sends an alert_
+**Note**: _Change "notify.alexa_media_{mediaplayer}", "media_player.{mediaplayer}" and "notify.mobile_app_{phone}"_
 ```yaml
-alias: "NWR Alert"
-description: ''
+alias: 'Open Weather Radio: Send Alert'
+description: >-
+  Send alert to Alexa and mobile whenever sensor.open_weather_radio is updated
+  excluding online messages.
 trigger:
   - platform: state
     entity_id: sensor.open_weather_radio
-condition: []
+condition:
+  - condition: not
+    conditions:
+      - condition: state
+        entity_id: sensor.open_weather_radio
+        state: online
 action:
   - data_template:
       data:
@@ -115,9 +133,16 @@ action:
         type: announce
       message: '{{ state_attr("sensor.open_weather_radio", "message").split(".")[0] }}'
       target:
-        - media_player.everywhere
+        - #media_player.{mediaplayer}
       title: Open Weather Radio
-    service: notify.alexa_media_everywhere
+    service: #notify.alexa_media_{mediaplayer}
+  - data:
+      title: Open Weather Radio
+      message: '{{ state_attr("sensor.open_weather_radio", "message").split(".")[0] }}'
+      data:
+        icon_url: 'https://jpeterson37.github.io/logos/owr.png'
+        tag: Open_Weather_Radio
+    service: #notify.mobile_app_{phone}
 mode: single
 max: 2
 ```
@@ -178,3 +203,12 @@ SOFTWARE.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [patreon-shield]: https://jpeterson37.github.io/patreon/patreon.png
 [patreon]: https://www.patreon.com/jptekservices
+[owr-release-shield]: https://img.shields.io/badge/version-v0.0.4-blue.svg
+[owr-release]: https://github.com/JP-Tek-Services/addon-open-weather-radio/
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+[license-shield]: https://img.shields.io/github/license/JP-Tek-Services/addon-open-weather-radio
