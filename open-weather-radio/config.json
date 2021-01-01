@@ -11,8 +11,13 @@
         "freq": "162.550M",
         "ppm": 0,
         "gain": 40,
+        "same": "",
         "log_level": "info",
         "dsamelog": 10,
+        "mqttsvr": "",
+        "mqttport": 1883,
+        "mqttusr": "",
+        "mqttpw": "",
         "test": false
     },
     "schema": {
