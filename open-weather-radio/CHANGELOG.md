@@ -1,4 +1,9 @@
 ### 🔨 Changes
+v0.0.5
+- Fixed MQTT bugs
+- Coupled MQTT status with main process
+- Updated HASS slug formatting (i.e. open_weather_radio)
+
 v0.0.4
 - Fixed MQTT status updates
 - Fixed dsamelog requirement
