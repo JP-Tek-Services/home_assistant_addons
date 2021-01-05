@@ -1,7 +1,7 @@
 {
     "name": "Open Weather Radio",
-    "version": "v0.0.4",
-    "slug": "open-weather-radio",
+    "version": "v0.0.5",
+    "slug": "open_weather_radio",
     "description": "Addon to run Open Weather Radio with Home Assistant",
     "url": "https://github.com/JP-Tek-Services/addon-open-weather-radio",
     "arch": ["aarch64", "amd64", "armv7", "i386"],

@@ -203,7 +203,7 @@ SOFTWARE.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [patreon-shield]: https://jpeterson37.github.io/patreon/patreon.png
 [patreon]: https://www.patreon.com/jptekservices
-[owr-release-shield]: https://img.shields.io/badge/version-v0.0.4-blue.svg
+[owr-release-shield]: https://img.shields.io/badge/version-v0.0.5-blue.svg
 [owr-release]: https://github.com/JP-Tek-Services/addon-open-weather-radio/
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
