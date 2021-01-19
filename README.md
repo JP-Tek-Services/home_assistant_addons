@@ -63,10 +63,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [patreon]: https://www.patreon.com/jptekservices
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [agentdvr-release-shield]: https://img.shields.io/badge/version-v0.01.0-blue.svg
-[agentdvr-release]: https://github.com/jpeterson37/addon-agentdvr/tree/v0.1.0
+[agentdvr-release]: https://github.com/JP-Tek-Services/addon-agentdvr/tree/v0.1.0
 [owr-release-shield]: https://img.shields.io/badge/version-v0.0.5-blue.svg
 [owr-release]: https://github.com/JP-Tek-Services/addon-open-weather-radio/
-[screenshot]: https://raw.githubusercontent.com/jpeterson37/addon-agentdvr/dev/images/screenshot.png
+[screenshot]: https://raw.githubusercontent.com/JP-Tek-Services/addon-agentdvr/dev/images/screenshot.png
 [ispyurl]: https://www.ispyconnect.com/
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
