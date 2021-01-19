@@ -1,5 +1,5 @@
 # Home Assistant Community Add-on: AgentDVR
-[![Release][agentdvr-release-shield]][owr-release] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
+[![Release][agentdvr-release-shield]][agentdvr-releases] ![Project Stage][project-stage-shield] [![License][license-shield]](LICENSE.md)
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]
@@ -101,15 +101,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[contributors]: https://github.com/jpeterson37/addon-agentdvr/graphs/contributors
+[contributors]: https://github.com/jptekservices/addon-agentdvr/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [jpeterson]: https://github.com/Jpeterson37
-[issue]: https://github.com/jpeterson37/addon-agentdvr/issues
+[issue]: https://github.com/jptekservices/addon-agentdvr/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/jpeterson37/addon-agentdvr/releases
+[agentdvr-releases]: https://github.com/jptekservices/addon-agentdvr/releases
 [ispyurl]: https://www.ispyconnect.com/
-[contributors]: https://github.com/jpeterson37/addon-agentdvr/graphs/contributors
+[contributors]: https://github.com/jptekservices/addon-agentdvr/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.gg/EXjEee3dnw
 [jpeterson]: https://github.com/Jpeterson37
