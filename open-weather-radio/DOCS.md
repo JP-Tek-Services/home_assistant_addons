@@ -200,7 +200,7 @@ SOFTWARE.
 [jpeterson]: https://github.com/Jpeterson37
 [issue]: https://github.com/JP-Tek-Services/addon-open-weather-radio/issues
 [releases]: https://github.com/JP-Tek-Services/addon-open-weather-radio/releases
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [patreon-shield]: https://jpeterson37.github.io/patreon/patreon.png
 [patreon]: https://www.patreon.com/jptekservices
 [owr-release-shield]: https://img.shields.io/badge/version-v0.0.5-blue.svg
